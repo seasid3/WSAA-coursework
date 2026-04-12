@@ -55,19 +55,19 @@ print("\n🃏 Hand Check:")
 congratulated = False
 
 if is_flush:
-    print(f"  🎉 Flush! All five cards are {suits[0]}. Well done!")
+    print(f"  🎉 Flush! All five cards are {suits[0]}. Congratulations!")
     congratulated = True
 
 if is_straight:
-    print("  🎉 Straight! Five cards in a row. Impressive!")
+    print("  🎉 Straight! Five cards in a row. Congratulations!")
     congratulated = True
 
 for value, count in value_counts.items():
     if count == 3:
-        print(f"  🎉 Three of a kind! You have three {value}s. Nice hand!")
+        print(f"  🎉 Three of a kind! You have three {value}s. Congratulations!")
         congratulated = True
     elif count == 2:
-        print(f"  🎉 Pair! You have a pair of {value}s. Not bad!")
+        print(f"  🎉 Pair! You have a pair of {value}s. Congratulations!")
         congratulated = True
 
 if not congratulated:
