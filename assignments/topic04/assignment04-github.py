@@ -10,7 +10,7 @@ import config
 # Source public repo (no authorisation/token required): https://github.com/andrewbeattycourseware
 source_owner = "andrewbeattycourseware"
 source_repo  = "wsaa-courseware"
-source_file  = "code/Topic04-authentication/lecture/getrepoinformation.py"
+source_file  = "code/Topic03-apis/bookapidao.py"
 
 # Destination (my repo) details loaded from config.py
 dest_owner = config.Destination_owner
