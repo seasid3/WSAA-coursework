@@ -24,7 +24,7 @@ headers = {
 }
 
 def get_file_from_source():
-    """Read the file from Andrew's public repo."""
+    #Read the file from Andrew's public repo
     url = f"https://api.github.com/repos/{source_owner}/{source_repo}/contents/{source_file}"
     
     # No authorisation needed for public repo
@@ -37,11 +37,11 @@ def get_file_from_source():
     return content
 
 def replace_name(content):
-    """Replace all instances of 'Andrew' with my name "Orla"."""
-    return content.replace("Andrew", "Orla")
+    # Replace all instances of 'Andrew' with my name "Orla"
+    return content.replace("Andrew", "Orla") 
 
 def push_to_my_repo(new_content):
-    """Push the updated file to my own assignments repo."""
+    # Push the updated file to my own assignments repo
     url = f"https://api.github.com/repos/{dest_owner}/{dest_repo}/contents/{dest_file}"
 
     # Check if file already exists in my repo (need Secure Hash Alogrithm - SHA- to update it)
