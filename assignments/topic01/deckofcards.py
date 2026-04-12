@@ -1,7 +1,6 @@
 # Deck of Cards
 # This programe shuffles a deck of cards and deals 5 cards using the Deck of Cards API
 # Author: Orla Woods
-# Code generated with the help of Copilot and claude.ai, Anthropic
 
 import requests
 
