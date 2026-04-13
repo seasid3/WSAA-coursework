@@ -23,6 +23,7 @@ def createBook(book):
     
     return response.json()
 
+
 def updateBook(id, bookdiff):
     updateurl = url + "/" + str(id)
     response = requests.put(updateurl, json=bookdiff)
